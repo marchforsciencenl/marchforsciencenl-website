@@ -1,0 +1,35 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://marchforscience.nl
+title: March for Science - Netherlands
+email: sciencemarchnl@gmail.com
+author: MFS Netherlands
+description: > # "Write an awesome description for your new site here.
+  Science is for everyone.
+  Facts are real.
+  Celebrate empiricism, April 22nd, 2017.
+  The time is now.
+copyright: 'Copyright &copy; 2017 MfS - Netherlands. All Rights Reserved.'
+credits: 'Credits: New Age is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/ScienceMarchNL
+  - title: facebook
+    url: https://www.facebook.com/ScienceMarchNL
+  - title: github
+    url: https://github.com/marchforsciencenl/marchforsciencenl
