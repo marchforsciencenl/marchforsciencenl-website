@@ -27,6 +27,9 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: mail
+    icon: envelope
+    url: mailto:sciencemarchnl@gmail.com
   - title: twitter
     url: https://twitter.com/ScienceMarchNL
   - title: facebook
