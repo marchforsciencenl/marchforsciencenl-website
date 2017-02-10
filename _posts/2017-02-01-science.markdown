@@ -1,6 +1,6 @@
 ---
 layout: default
-img: atom-logo-v2.png
+img: Afbeelding3.png
 category: Posts
 title: Science In Progress
 description: |
