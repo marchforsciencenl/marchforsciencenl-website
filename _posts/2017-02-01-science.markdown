@@ -5,4 +5,7 @@ category: Posts
 title: Science In Progress
 description: |
 ---
-  We are currently preparing our full mission statement and other details on the March for Science -- Netherlands. You can read a short version of our mission below. Please show your support by registering at the bottom of this page. Thank you; see you soon!
+  We are currently preparing our full mission statement and other details on the March for Science -- Netherlands. 
+  
+  You can read a short version of our mission below. Please show your support by registering at the bottom of this page.
+  Thank you!
