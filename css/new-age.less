@@ -48,7 +48,7 @@ p {
 }
 
 // Custom collapse
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .navbar-header {
       float: none;
   }
@@ -127,7 +127,7 @@ p {
             }
         }
     }
-    @media (min-width: 1000px) {
+    @media (min-width: 768px) {
         background-color: transparent;
         border-color: transparent;
         .navbar-header .navbar-brand {
@@ -366,6 +366,11 @@ section.features {
     text-align: left;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
+}
+
+
 section.cta {
     position: relative;
     .background-cover;
@@ -407,6 +412,10 @@ section.contact {
             color: @brand-google-plus;
         }
     }
+}
+
+.navbar-inverse {
+    background-color: fade(@gray-darker, 90%);
 }
 
 footer {
