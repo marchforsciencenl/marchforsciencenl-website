@@ -2,10 +2,16 @@
 layout: default
 img: Afbeelding3.png
 category: Posts
-title: Science In Progress
+title: Welcome to March For Science -- NL
 description: |
 ---
-  We are currently preparing our full mission statement and other details on the March for Science -- Netherlands. 
+  On April 22nd 2017 we will March For Science! 
+  Under the menu item 'About' you can read our full Statement, telling you the reasons this march should be held. 
   
-  You can read a short version of our mission below. Please show your support by registering at the bottom of this page.
+  Along the way we will add more practical information about the day of the March.
+  
+  Please show your support by registering at the bottom of this page.
   Thank you!
+
+  See you soon in Amsterdam!
+  Regards, the MFS-NL Organization
