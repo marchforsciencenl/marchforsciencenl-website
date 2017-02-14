@@ -2,7 +2,7 @@
 layout: default
 img: Afbeelding3.png
 category: Posts
-title: Welcome to March For Science -- NL
+title: Welcome to March For Science - NL
 description: |
 ---
   On April 22nd 2017 we will March For Science! 
