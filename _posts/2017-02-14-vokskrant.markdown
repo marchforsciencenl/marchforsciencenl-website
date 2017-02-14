@@ -2,7 +2,7 @@
 layout: default
 img: newspaper.jpg
 category: Posts
-title: March For Science NL in de Volkskrant!
+title: March For Science NL in de krant
 description: |
 ---
   [De March For Science komt aan het woord in De Volkskrant!](http://s.vk.nl/s-a4461929/)
