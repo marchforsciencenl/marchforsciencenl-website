@@ -1,0 +1,44 @@
+  <section id="organization">
+    <!-- Header -->
+    <div class="intro-header">
+      <div class="container">
+        <div class="row">
+          <button id="btn" type="button" class=
+          "btn btn-default-xs pull-right" onclick=
+          "toggleLang()">nl</button><br>
+        </div>
+        <div class="row">
+                <div class="col-sm-4">
+                  <img class="img-responsive" src="/img/donation-box.jpg" alt="">
+                </div>
+          <div class=
+          "col-sm-8">
+            <div class="en">
+              <p><strong>Donations</strong><br></p>
+	      <p>The March for Science NL is a volunteer coordinated initiative, brought to life by scientists and concerned citizens donating their time. While it is clearly a moment to take to the streets, we envision more than just a march. As our aim to bring science closer to the public, the event on Museumplein will include keynote speakers and teach-in tents, touching on issues such as climate change, vaccine safety and scientific method. Activities for all ages will be free and open to the public. To realize these goals, we will need to rent a stage and tents, hire technical support, print materials, and more. All of this will be accomplished solely through donations by individuals and sympathetic organizations. Your support is greatly appreciated.</p>
+            </div>
+            <div class="nl" style="display: none">
+              <p><strong>Donaties</strong><br></p>
+	      <p>De March For Science NL is een initiatief dat door wetenschappers en bezorgde burgers op vrijwillige basis wordt gecoördineerd. Nu is het juiste moment om de straat op te gaan en onze stemmen te laten horen, maar wij hopen dat die dag meer zal omvatten dan alleen een mars. Wij streven er naar om wetenschap dichter bij het publiek te brengen. Daarom zullen wij proberen om tijdens de March For Science op 22 april sprekers uit te nodigen en tenten op te zetten waar wetenschappers demonstraties geven op het gebied van klimaatonderzoek, vaccinatie veiligheid en algemene wetenschappelijke methoden. Alle activiteiten zullen gratis en vrij toegankelijk zijn voor publiek, zowel jong als oud. Om deze doelen te kunnen nastreven, zullen we een podium en een aantal tenten nodig hebben, technische ondersteuning moeten inhuren, drukwerk produceren, enzovoorts. Al dit kunnen wij alleen aan de hand van donaties door individuen en betrokken organisaties bekostigen. Uw steun is dus van harte welkom! Bij voorbaat dank.</p>
+            </div>
+	    <div><a class="btn btn-info" href="http://www.whydonate.nl/march-for-science-nl-april-22nd/event/" target="_blank"><div class="en">Donate here</div><div class="nl" style="display: none">Hierlangs doneren</div></a>
+	    </div>
+          </div>
+
+        </div>
+      </div><!-- /.container -->
+    </div><!-- /.intro-header -->
+  </section>
+  <script>
+  function toggleLang() {
+        if ($("#btn").text() == "nl") {
+                $(".en").hide();
+                $(".nl").show();
+                $("#btn").text("en");
+        } else {
+                $(".en").show();
+                $(".nl").hide();
+                $("#btn").text("nl");
+        };
+  }
+  </script>
