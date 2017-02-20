@@ -360,6 +360,16 @@ section.features .feature-item i {
     max-width: none;
   }
 }
+section#newsarchive {
+  margin-left: 0;
+  list-style: none;
+}
+section#newsarchive ul {
+  list-style: none;
+}
+section#newsarchive li.item {
+  padding-bottom: .25em;
+}
 .checkbox {
   text-align: left;
 }
