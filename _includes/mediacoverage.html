@@ -1,0 +1,15 @@
+  <section id="mediacoverage">
+    <!-- Header -->
+    <div class="intro-header">
+      <div class="container">
+        <div class="row">
+		<p>Below are link's to media where the Dutch march is mentioned</p>
+		<ul>
+{% for item in site.data.mediacoverage %}
+<li><a href="{{ item.link }}" target="_blank">{{ item.description }}</a><div class="preview"><iframe src="{{ item.link }}" width="500px" height="500px"></iframe></div></li>
+{% endfor %}
+		</ul>
+        </div>
+      </div><!-- /.container -->
+    </div><!-- /.intro-header -->
+  </section>

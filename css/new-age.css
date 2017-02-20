@@ -370,6 +370,23 @@ section#newsarchive ul {
 section#newsarchive li.item {
   padding-bottom: .25em;
 }
+section#mediacoverage ul {
+  list-style: none;
+}
+section#mediacoverage li.item {
+  padding-bottom: .25em;
+}
+section#mediacoverage .preview {
+  display: none;
+  width: 100%;
+  padding-left: 50%;
+}
+section#mediacoverage a:hover + .preview,
+section#mediacoverage .preview:hover {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
 .checkbox {
   text-align: left;
 }
