@@ -1,0 +1,12 @@
+---
+layout: default
+img: nrc.png
+category: Posts
+title: De rectoren van alle Nederlandse Universiteiten pleiten voor vrije wetenschap!
+description: |
+---
+  ["Rectoren van de 12 Nederlandse Universiteiten schrijven een pleidooi voor vrije wetenschap" ](https://www.nrc.nl/nieuws/2017/02/16/wetenschap-moet-vooral-vrij-blijven-6728319-a1546332)
+
+  Op 16 februari 2017 publiceerde het NRC een brief namens alle 12 rectoren van de Nederlandse Universiteiten, waarin zij waarschuwen voor het gevaar dat de vrije wetenschap in diskrediet wordt gebracht.
+
+ The english version can be found [here](https://www.uu.nl/en/news/rectors-concerned-about-the-freedom-of-science)
