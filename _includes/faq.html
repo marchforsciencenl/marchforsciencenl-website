@@ -1,0 +1,37 @@
+  <section id="mediacoverage">
+    <!-- Header -->
+    <div class="intro-header">
+      <div class="container">
+        <div class="row">
+          <button id="btn" type="button" class=
+          "btn btn-default-xs pull-right" onclick=
+          "toggleLang()">nl</button><br>
+        </div>
+{% for item in site.data.faq %}
+<div class="row">
+	<h1>
+		<div class="en">{{ item.question-en }}</div>
+		<div class="nl">{% if item.question-nl %}{{ item.question-nl }}{% else %}{{ item.question-en }}{% endif %}</div>
+	</h1>
+	<div class="en">{{ item.answer-en | markdownify }}</div>
+        <div class="nl">{% if item.answer-nl %}{{ item.answer-nl | markdownify }}{% else %}{{ item.answer-en | markdownify }}{% endif %}</div>
+</div>
+{% endfor %}
+		</ul>
+      </div><!-- /.container -->
+    </div><!-- /.intro-header -->
+  </section>
+  <script>
+  function toggleLang() {
+        if ($("#btn").text() == "nl") {
+                $(".en").hide();
+                $(".nl").show();
+                $("#btn").text("en");
+        } else {
+                $(".en").show();
+                $(".nl").hide();
+                $("#btn").text("nl");
+        };
+  }
+  </script>
+
