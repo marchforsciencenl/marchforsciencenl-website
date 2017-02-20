@@ -6,7 +6,7 @@
 		<p>Below are link's to media where the Dutch march is mentioned</p>
 		<ul>
 {% for item in site.data.mediacoverage %}
-<li><a href="{{ item.link }}" target="_blank">{{ item.description }}</a><div class="preview"><iframe src="{{ item.link }}" width="500px" height="500px"></iframe></div></li>
+<li class="item"><strong>{{ item.date }}</strong> &sdot; <a href="{{ item.link }}" target="_blank">{{ item.description }}</a></li>
 {% endfor %}
 		</ul>
         </div>

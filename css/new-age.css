@@ -374,7 +374,7 @@ section#mediacoverage ul {
   list-style: none;
 }
 section#mediacoverage li.item {
-  padding-bottom: .25em;
+  padding-bottom: .5em;
 }
 section#mediacoverage .preview {
   display: none;
