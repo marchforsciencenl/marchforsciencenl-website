@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 img: nrc.png
 category: Posts
 title: Brief van rectoren voor vrije wetenschap

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 img: newspaper.jpg
 category: Posts
 title: March For Science NL in de krant
