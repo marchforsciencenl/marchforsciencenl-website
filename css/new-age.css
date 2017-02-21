@@ -583,3 +583,11 @@ body {
 .nl {
   display: none;
 }
+
+@media (min-width: 1260px) {
+ .twitterbox {
+    position: fixed;
+    top: 25%;
+    right: 2px;
+  }
+}
