@@ -9,7 +9,36 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="/"><img src="/img/MfS-logo-white.png" style="margin-top: -5px">&nbsp;Go back</a>
+            <a class="navbar-brand page-scroll" href="/#home"><img src="/img/MfS-logo-white.png" style="margin-top: -5px">&nbsp;Start page</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="page-scroll" href="/#news">News <span class="caret"></span></a>
+		    <ul class="dropdown-menu">
+			    <li><a href="/mediacoverage">Media coverage ({{ site.data.mediacoverage | size }} items)</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="/newsarchive">News archive ({{ site.posts | size }} items)</a></li>
+		    </ul>
+                </li>
+            	<li class="dropdown">
+                    <a class="page-scroll" href="/#about">About <span class="caret"></span></a>
+		    <ul class="dropdown-menu">
+			    <li><a href="/statement">Statement</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="/organization">Organization</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="/faq">FAQ</a></li>
+		    </ul>
+                </li>
+            	<li>
+                    <a class="page-scroll" href="/#support">Support</a>
+                </li>
+            	<li>
+			<a href="/donations"><div class="btn-xs btn btn-info"><span class="glyphicon glyphicon-heart"></span>&nbsp;Donations&nbsp;<span class="glyphicon glyphicon-heart"</span></div></a>
+                </li>
+            </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
