@@ -1,4 +1,4 @@
-# Marche for Science NL
+# March for Science NL
 
 This page is based on work provided by both [MarchForScienceAU](https://github.com/MarchForScienceAU/marchforscienceau) and [marchforsciencegeneva](https://github.com/marchforsciencegeneva/marchforsciencegeneva.github.io). Made available for other to use this as a basis for their website.
 
