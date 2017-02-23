@@ -9,3 +9,18 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/landing-page.js"></script>
+
+<script>
+   function toggleTwitter() {
+    var panel = $('#twitterbox');
+    if (panel.hasClass("visible")) {
+      panel.removeClass("visible").animate({'margin-right': '-300px'});
+      $('#opener').text('Show twitter feed');
+    } else {
+      panel.addClass("visible").animate({'margin-right': '0px'});
+      $('#opener').text('Hide twitter feed');
+    }
+    return false;
+  }
+</script>
+
