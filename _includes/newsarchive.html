@@ -1,17 +1,26 @@
 <section id="newsarchive">     
-    <div class="intro-header">
-          <div class="container">
-		  <div class="row">
-            <h1>News archive</h1>
-	    <ul>{% for post in site.posts %}{% assign year = post.date | date: '%Y' %}{% assign lastyear = post.next.date | date: '%Y' %}{% assign month = post.date | date: '%B' %}{% assign lastmonth = post.next.date | date: '%B' %}
-              {% if year != lastyear %}<li class="year"><h2>{{ year }}</h2></li>{% endif %}
-              {% if month != lastmonth %}<li class="month"><h2>{{ month }}</h2></li>{% endif %}
-              <li class="item">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </li>{% endfor %}
-            </ul>
-          </div>
-          </div>
+  <div class="intro-header">
+    <div class="container">
+        <div class="row">
+          <h1>Our archive</h1>
+          <ul>
+            {% for post in site.posts %}
+	      {% assign year = post.date | date: '%Y' %}
+	      {% assign lastyear = post.next.date | date: '%Y' %}
+	      {% assign month = post.date | date: '%B' %}
+	      {% assign lastmonth = post.next.date | date: '%B' %}
+                {% if year != lastyear %}<li class="year"><h2>{{ year }}</h2></li>{% endif %}
+                {% if month != lastmonth %}<li class="month"><h2>{{ month }}</h2></li>{% endif %}
+                <li class="item">
+		  {% if post.category == "endorsement %}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{% endif %}
+	          {% if post.category == "news" %}<i class="fa fa-newspaper-o" aria-hidden="true"></i>{% endif %}
+	          {% if post.category == "media" %}<i class="fa fa-cloud" aria-hidden="true"></i>{% endif %}
+                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+          </ul>
         </div>
+    </div>
+  </div>
 </section>

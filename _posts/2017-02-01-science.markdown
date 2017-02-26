@@ -1,7 +1,7 @@
 ---
 layout: post
 img: Afbeelding3.png
-category: Posts
+category: news
 title: Welcome to March For Science - NL
 description: |
 ---

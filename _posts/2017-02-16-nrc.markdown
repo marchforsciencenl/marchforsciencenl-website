@@ -1,7 +1,7 @@
 ---
 layout: post
 img: nrc.png
-category: Posts
+category: news
 title: Brief van rectoren voor vrije wetenschap
 description: |
 ---

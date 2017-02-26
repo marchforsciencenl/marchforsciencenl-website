@@ -1,7 +1,7 @@
 ---
 layout: post
-img: newspaper.jpg
-category: Posts
+img: 
+category: media
 title: March For Science NL in de krant
 description: |
 ---
