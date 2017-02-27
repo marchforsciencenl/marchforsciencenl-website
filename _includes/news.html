@@ -15,7 +15,11 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+		    {% if post.img %}
                     <img class="img-responsive" src="img/posts/{{ post.img }}" alt="">
+		    {% else %}
+		    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+		    {% endif %}
                 </div>
             </div>
 
@@ -38,7 +42,11 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+		    {% if post.img %}
                   <img class="img-responsive" src="img/posts/{{ post.img }}" alt="">
+		    {% else %}
+		    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+		    {% endif %}
                 </div>
             </div>
 
