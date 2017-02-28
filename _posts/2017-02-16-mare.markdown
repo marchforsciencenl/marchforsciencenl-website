@@ -1,8 +1,8 @@
 ---
 layout: post
-img: 
+img: logo.png
 category: media
 title: Mare (Leiden Universiteit) - "Niet Alleen een Mening"
 description: |
 ---
-  The March of Science marches are mentioned in [Mare (Leiden Universiteit) - "Niet Alleen een Mening"](http://www.mareonline.nl/archive/2017/02/16/niet-alleen-een-mening)
+  Our communications officer, Zsuzsika, got interviewed for the Mare, a local university newspaper of Leiden University, where she is assistant professor: [Mare (Leiden Universiteit) - "Niet Alleen een Mening"](http://www.mareonline.nl/archive/2017/02/16/niet-alleen-een-mening)
