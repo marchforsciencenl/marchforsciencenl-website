@@ -1,6 +1,6 @@
 ---
 layout: post
-img: Robbert.jpeg
+img: robbert.jpeg
 category: media
 title: Newsletter (inter)national support for the March!
 description: |
