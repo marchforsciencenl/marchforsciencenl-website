@@ -1,6 +1,6 @@
 ---
 layout: post
-img: none
+img:
 category: endorsement
 title: Het Natuurhistorisch museum staat achter de March for Science
 description: |
