@@ -1,0 +1,40 @@
+<section id="newsarchive">     
+  <div class="intro-header">
+    <div class="container">
+        <div class="row">
+          <h1>Endorsements</h1>
+	  <p>Below is a list of organisations the support up.</p>
+          <ul>
+            {% for post in site.posts %}
+	      {% if post.category == "endorsement" %}
+                <li class="item">
+                  <strong>{{ post.title }}</strong><br>
+                  {{ post.content }}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="row">
+          <h1>Sponsors</h1>
+          <p>The organisations below support us financially.</p>
+          <ul>
+	    {% for sponsor in site.data.sponsors %}
+	      <li>
+                <a href="{{ sponsor.link }}"><img src="/img/{{ sponsor.logo }}"></a>
+	      </li>
+	    {% endfor %}
+	  </ul>
+	</div>
+        <div class="row">
+          <h1>Supporters</h1>
+          <p>Individuals that supported us financially.</p>
+          <ul>
+	    {% for donator in site.data.donators %}
+              <li>{{ donator.name }}</li>
+	    {% endfor %}
+	  </ul>
+	</div>
+    </div>
+  </div>
+</section>
