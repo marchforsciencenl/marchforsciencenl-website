@@ -1,0 +1,9 @@
+---
+layout: post
+img: 20170310-LogosNLMarch-Colormills_switched_whitebg.png
+category: media
+title: Registreer je nu via ons Facebook Event!
+description: |
+---
+  Iedereen die Facebook heeft kan zich nu ook aanmelden voor ons [Facebook event](https://www.facebook.com/events/1103742243069948/) en makkelijk vrienden/kennissen/collega's uitnodigen. Ben je van plan naar het Museumplein te komen op 22 april? Laat het even weten via ons [event](https://www.facebook.com/events/1103742243069948/), dan hebben we een idee hoeveel mensen komen:
+Tot de 22e!
