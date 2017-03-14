@@ -6,6 +6,11 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
 
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:url" content="https://marchforscience.nl" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="https://marchforscience.nl/img/mfs-flyer.png" />
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap Core CSS -->
