@@ -611,3 +611,12 @@ body {
 .lead p {
   line-height: 1.2;
 }
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #ddd;
+    font-size: 1.2em;
+}
+
+a.page-scroll {
+    top: .5em;
+}
