@@ -1,6 +1,6 @@
 ---
 layout: post
-img: mfs-flyer_white_thumb.jpg
+img: mfs-flyer_white_thumb.png
 category: media
 title: Download nu onze flyers en posters!
 description: |
