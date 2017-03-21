@@ -18,13 +18,18 @@
         <div class="row">
           <h1>Sponsors</h1>
           <p>The organisations below support us financially.</p>
-          <ul>
 	    {% for sponsor in site.data.sponsors %}
-	      <li>
+              {% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
+              {% if modulo == '0' or forloop.first %}
+                <div class="row">
+              {% endif %}
+                <div class="col-lg-4"><p>
                 <a href="{{ sponsor.link }}"><img src="/img/{{ sponsor.logo }}"></a>
-	      </li>
+                </p></div>
+              {% if modulo == '2' or forloop.last %}
+                </div>
+              {% endif %}
 	    {% endfor %}
-	  </ul>
 	</div>
         <div class="row">
           <h1>Supporters</h1>
