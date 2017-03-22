@@ -635,7 +635,8 @@ a.page-scroll {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  top-padding: 2px;
+  padding-top: 2px;
+  z-index: 1000;
 }
 
 .merchandise-link {
