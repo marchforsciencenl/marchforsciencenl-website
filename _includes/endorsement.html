@@ -4,16 +4,17 @@
         <div class="row">
           <h1>Endorsements</h1>
 	  <p>Below is a list of organisations that support us.</p>
+          <div id="myTagContainer">
+<canvas id="myTag" width=600 height=300>
           <ul>
-            {% for post in site.posts %}
-	      {% if post.category == "endorsement" %}
-                <li class="item">
-                  <strong>{{ post.title }}</strong><br>
-                  {{ post.content }}
+            {% for endorsement in site.data.endorsements %}
+                <li>
+                  <a href="{{ endorsement.link }}" target="_blank">{{ endorsement.name }}</a>
                 </li>
-              {% endif %}
             {% endfor %}
           </ul>
+</canvas>
+          </div>
         </div>
         <div class="row">
           <h1>Sponsors</h1>
@@ -24,7 +25,7 @@
                 <div class="row">
               {% endif %}
                 <div class="col-lg-4"><p>
-                <a href="{{ sponsor.link }}"><img src="/img/{{ sponsor.logo }}"></a>
+                <a href="{{ sponsor.link }} target="_blank""><img src="/img/{{ sponsor.logo }}"></a>
                 </p></div>
               {% if modulo == '2' or forloop.last %}
                 </div>
@@ -34,3 +35,14 @@
     </div>
   </div>
 </section>
+
+ <script type="text/javascript">
+  window.onload = function() {
+    try {
+      TagCanvas.Start('myTag');
+    } catch(e) {
+      // something went wrong, hide the canvas container
+      document.getElementById('myTag').style.display = 'none';
+    }
+  };
+ </script>
