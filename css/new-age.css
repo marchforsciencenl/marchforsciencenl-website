@@ -263,7 +263,7 @@ header ul.list-social li a {
   color: white;
 }
 section {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 section h2 {
   font-size: 50px;
@@ -619,4 +619,25 @@ body {
 
 a.page-scroll {
     top: .5em;
+}
+
+.navbar-fixed-top {
+  top: 2.5em;
+}
+
+.merchandise {
+  top: 0;
+  position: fixed;
+  background: #6495ed;
+  width: 100%;
+  text-align: center;
+  height: 2.5em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  top-padding: 2px;
+}
+
+.merchandise-link {
+  color: #ffffff;
 }
