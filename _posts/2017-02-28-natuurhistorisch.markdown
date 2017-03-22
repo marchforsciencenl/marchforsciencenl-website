@@ -2,7 +2,7 @@
 layout: post
 img:
 category: endorsement
-title: 
+title:   
 description: |
 ---
 [Het Natuurhistorisch Museum](http://www.hetnatuurhistorisch.nl/collectie/march-for-science.html) staat achter de March for Science:
