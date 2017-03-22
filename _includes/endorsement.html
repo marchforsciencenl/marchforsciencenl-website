@@ -19,7 +19,7 @@
           <h1>Sponsors</h1>
           <p>The organisations below support us financially.</p>
 	    {% for sponsor in site.data.sponsors %}
-              {% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
+              {% capture modulo %}{{ forloop.index0 | modulo:3 }}{% endcapture %}
               {% if modulo == '0' or forloop.first %}
                 <div class="row">
               {% endif %}
