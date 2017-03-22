@@ -27,3 +27,5 @@ Ook deze personen en instituten ondersteunen de March For Science:
 [VAWO](https://www.vawo.nl/) (Vakbond voor de Wetenschap)
 
 [Vereniging tegen de kwakzalverij](http://www.kwakzalverij.nl/)
+
+Alle Nederlandse Universiteiten / All Dutch Universities
