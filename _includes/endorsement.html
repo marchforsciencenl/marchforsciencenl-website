@@ -9,7 +9,7 @@
           <ul>
             {% for endorsement in site.data.endorsements %}
                 <li>
-                  <a href="{{ endorsement.link }}" target="_blank">{{ endorsement.name }}</a>
+                  <a class="tagLink" href="{{ endorsement.link }}" target="_blank">{{ endorsement.name }}</a>
                 </li>
             {% endfor %}
           </ul>
@@ -39,6 +39,8 @@
  <script type="text/javascript">
   window.onload = function() {
     try {
+      TagCanvas.textColour = '#ff0000';
+      TagCanvas.initial = [0.4,-0.3];
       TagCanvas.Start('myTag');
     } catch(e) {
       // something went wrong, hide the canvas container
