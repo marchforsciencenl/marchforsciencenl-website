@@ -9,7 +9,7 @@
           <ul>
             {% for endorsement in site.data.endorsements %}
                 <li>
-                  <a class="tagLink" href="{{ endorsement.link }}" target="_blank">{{ endorsement.name }}</a>
+			<a class="tagLink" href="{{ endorsement.link }}" {% if endorsement.quote %}title="{{ endorsement.quote | markdownify  }}" {% endif %} target="_blank">{{ endorsement.name }}</a>
                 </li>
             {% endfor %}
           </ul>
@@ -41,6 +41,9 @@
     try {
       TagCanvas.textColour = '#ff0000';
       TagCanvas.initial = [0.1,-0.05];
+      TagCanvas.shuffleTags = true;
+      TagCanvas.tooltip = 'div';
+      TagCanvas.tooltipDelay = 50;
       TagCanvas.Start('myTag');
     } catch(e) {
       // something went wrong, hide the canvas container

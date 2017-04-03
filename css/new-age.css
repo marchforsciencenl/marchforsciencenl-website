@@ -646,3 +646,14 @@ a.page-scroll {
 .tagLink {
   color: #000;
 }
+
+.tctooltip {
+  border: 1px solid #000;
+  background-color: #6495ed;
+  color: #000;
+  padding: 4px;
+  font-size: 100%;
+  max-width: 350px;
+  text-align: center;
+  border-radius: 3px
+}
