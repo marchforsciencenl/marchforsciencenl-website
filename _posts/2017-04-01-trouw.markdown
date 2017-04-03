@@ -5,4 +5,4 @@ category: media
 title: Trouw - Niet zozeer tegen Trump, maar vóór de wetenschap
 description: |
 ---
-  Een interview van in [Trouw](https://www.trouw.nl/home/niet-zozeer-tegen-trump-maar-voor-de-wetenschap~a4a8f234/) waarin een stuk achtergrond geschetst wordt waarom de mars zo van belang is.
+  Een interview in [Trouw](https://www.trouw.nl/home/niet-zozeer-tegen-trump-maar-voor-de-wetenschap~a4a8f234/) waarin een stuk achtergrond geschetst wordt waarom de mars zo van belang is.
