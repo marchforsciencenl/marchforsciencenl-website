@@ -1,0 +1,8 @@
+---
+layout: post
+img: 
+category: media
+title: Spanning 3/2017 • Wetenschap en vooruitgang
+description: |
+---
+  Op bladzijden 18&19 van [SPanning 3/2017](https://www.sp.nl/spanning/2017/spanning-32017-wetenschap-en-vooruitgang) staat een uitgebreid artikel over de March of Science.
