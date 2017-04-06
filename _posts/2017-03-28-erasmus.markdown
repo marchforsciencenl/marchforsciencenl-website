@@ -1,0 +1,8 @@
+---
+layout: post
+img: logo_eur.png
+category: media
+title: Erasmus - March for Science&#58; science - not silence!
+description: |
+---
+  Erasmus universiteit [roept op om de mars bij te wonen](https://www.eur.nl/nieuws/nieuwsoverzicht/detail/news/9030-march-for-science-science-not-silence/)
