@@ -1,0 +1,8 @@
+---
+layout: post
+img: 
+category: media
+title: KIVI roept op om naar de mars te komen
+description: |
+---
+  KIVI (Koninklijk Instituut Van Ingenieurs) [roept op](https://www.kivi.nl/nieuws/artikel/march-for-science-nl) om naar de mars te komen.
