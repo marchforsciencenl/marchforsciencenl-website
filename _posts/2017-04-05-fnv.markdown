@@ -2,7 +2,7 @@
 layout: post
 img: logo_fnv.png
 category: endorsement
-title: FNV Onderwijs & Overheid ondersteund de mars  
+title: FNV Onderwijs & Overheid supports the march  
 description: |
 ---
 The Netherlands Trade Union Confederation [FNV](https://www.fnv.nl/sector-en-cao/alle-sectoren/overheid/) stands up for all employees in research and education. These employees work for all Dutch youth, for society, striving on their behalf everyday, and thus contribute importantly to civic society! They deserve sustainable employability and job security in all aspects. That is why the FNV is [partner](/endorsements/) in the March for Science!
