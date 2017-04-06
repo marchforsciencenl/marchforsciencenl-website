@@ -1,0 +1,8 @@
+---
+layout: post
+img: cursor.gif
+category: media
+title: TU/e-studente&#58; March for Science ook híer bittere noodzaak
+description: |
+---
+  In TU/e word actief geflyert zoals te lezen in in [Cursor](https://www.cursor.tue.nl/nieuwsartikel/artikel/tue-studente-march-for-science-ook-hier-bittere-noodzaak/), het tijdschift van de Universiteit van Eindhoven
