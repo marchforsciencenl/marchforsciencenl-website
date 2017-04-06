@@ -1,0 +1,8 @@
+---
+layout: post
+img: logo_spinoza.png
+category: media
+title: Spinoza Centre is fully supporting March For Science
+description: |
+---
+  he Amsterdam-based advanced neuroimaging centre is fully supporting and sponsoring the March For Science in Amsterdam! The list of endorsers and sponsors is growing. You can see the full list [here](http://www.spinozacentre.nl/news/56)
