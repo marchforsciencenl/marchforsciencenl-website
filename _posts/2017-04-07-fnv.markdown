@@ -1,0 +1,8 @@
+---
+layout: post
+img: logo_fnv.png
+category: media
+title: FNV Onderwijs & Overheid doet mee met de mars
+description: |
+---
+  FNV heeft op hun [nieuwsoverzicht](https://www.fnv.nl/sector-en-cao/alle-sectoren/overheid/universiteiten/nieuws/March-for-Science/) gemeld dat ze op 22 april ook naar Amsterdam komen.
