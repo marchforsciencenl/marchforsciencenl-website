@@ -12,9 +12,10 @@
                 {% if year != lastyear %}<li class="year"><h2>{{ year }}</h2></li>{% endif %}
                 {% if month != lastmonth %}<li class="month"><h2>{{ month }}</h2></li>{% endif %}
                 <li class="item">
-		  {% if post.category == "endorsement" %}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{% endif %}
-	          {% if post.category == "news" %}<i class="fa fa-newspaper-o" aria-hidden="true"></i>{% endif %}
-	          {% if post.category == "media" %}<i class="fa fa-cloud" aria-hidden="true"></i>{% endif %}
+		  {% if post.category == "endorsement" %}<i class="fa fa-thumbs-o-up fa-fw" aria-hidden="true"></i>{% endif %}
+	          {% if post.category == "news" %}<i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>{% endif %}
+	          {% if post.category == "media" %}<i class="fa fa-cloud fa-fw" aria-hidden="true"></i>{% endif %}
+	          {% if post.category == "keynote" %}<i class="fa fa-user fa-fw" aria-hidden="true"></i>{% endif %}
                   <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </li>
