@@ -1,0 +1,8 @@
+---
+layout: post
+img: logo_eur.png
+category: media
+title: Erasmus University Rotterdam heeft de March for Science op hun agenda geplaatsts
+description: |
+---
+  Via [deze link](https://www.eur.nl/nieuws/nieuwsoverzicht/detail/news/9030-march-for-science-science-not-silence/) zijn de details te zien.
