@@ -1,0 +1,8 @@
+---
+layout: post
+img: 
+category: media
+title: NIOZ placed the March for Science on their agenda
+description: |
+---
+  Click [here](https://www.workingatnioz.com/news/save-the-date!-march-for-science-nl-april-22,-amsterdam.html) to view the 'save the date!' call from NIOZ.
