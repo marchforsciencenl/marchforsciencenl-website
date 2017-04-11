@@ -14,7 +14,7 @@
   logo: logo_wur.png
 - link: http://www.ru.nl/english/
   logo: logo_ru.png
-- link: https://www.tilburguniversity.edu/
+- link: https://www.tilburguniversity.edu/students/news/show/Join-the-March-for-Science/
   logo: logo_tu.png
 - link: https://www.uu.nl/
   logo: logo_uu.png
@@ -40,3 +40,6 @@
   logo: logo_tue.png
 - link: https://www.sron.nl
   logo: logo_sron.png
+- link: http://www.tudelft.nl
+  logo: logo_tudelft.gif
+  
