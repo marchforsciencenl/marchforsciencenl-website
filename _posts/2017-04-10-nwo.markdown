@@ -1,0 +1,8 @@
+---
+layout: post
+img: nwo.png
+category: media
+title: NWO roept ook op om naar de mars te komen 
+description: |
+---
+  Op de [NWO website](http://www.nwo.nl/actueel/nieuws/2017/march-for-science-22-april-2017-in-amsterdam.html) is een oproep geplaats om naar de March for Science te komen. NWO kan zich niet verbinden aan het evenement, maar de voorzitter Stan Gielen zal aanwezig zijn.
