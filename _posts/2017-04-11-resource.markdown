@@ -1,0 +1,8 @@
+---
+layout: post
+img: resource.png
+category: media
+title: Resource - Wagenings tintje aan March for Science 
+description: |
+---
+  In de [Resource](https://resource.wur.nl/nl/wetenschap/show/Wagenings-tintje-aan-March-for-Science.htm) (Blad van de Universiteit van Wageningen) een interview met een van de initatiefnemers.
