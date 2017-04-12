@@ -5,4 +5,4 @@ category: keynote
 title: Rector&#58; 'Wetenschap is niet ook maar een mening!'
 description: |
 ---
-  [Een van onze spreekers spreekt uit waarom de March for Science actueel en van belang is.](http://www.advalvas.vu.nl/nieuws/rector-wetenschap-niet-ook-maar-een-mening)
+  [Een van onze sprekers spreekt uit waarom de March for Science actueel en van belang is.](http://www.advalvas.vu.nl/nieuws/rector-wetenschap-niet-ook-maar-een-mening)
