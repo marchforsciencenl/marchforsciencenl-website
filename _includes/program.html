@@ -1,0 +1,55 @@
+  <section id="program">
+    <!-- Header -->
+    <div class="intro-header">
+      <div class="container">
+        <div class="row">
+          <button id="btn" type="button" class=
+          "btn btn-default-xs pull-right" onclick=
+          "toggleLang()">nl</button><br>
+        </div>
+        <div class="row">
+{% for tc in site.data.tent_contributors %}
+  <p><img src="{{ tc.image }}"></br>
+  {% if tc.text_en %}
+    {% if tc.text_en and tc.text_nl %}
+      <div id="en">
+    {% endif %}
+    <p>
+    {{ tc.text_en|markdownify }}
+    </p>
+    {% if tc.text_en and tc.text_nl %}
+      </div>
+    {% endif %}
+  {% endif %}
+  {% if tc.text_nl %}
+    {% if tc.text_en and tc.text_nl %}
+      <div id="nl">
+    {% endif %}
+    <p>
+    {{ tc.text_nl }}
+    </p>
+    {% if tc.text_en and tc.text_nl %}
+      </div>
+    {% endif %}
+  {% endif %}
+  </p>
+{% endfor %}
+        </div>
+      </div><!-- /.container -->
+    </div><!-- /.intro-header -->
+  </section>
+
+  <script>
+  function toggleLang() {
+        if ($("#btn").text() == "nl") {
+                $("#en").hide();
+                $("#nl").show();
+                $("#btn").text("en");
+        } else {
+                $("#en").show();
+                $("#nl").hide();
+                $("#btn").text("nl");
+        };
+  }
+  </script>
+
