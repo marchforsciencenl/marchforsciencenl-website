@@ -1,40 +1,42 @@
-  <section id="program">
+<section id="language">
+    <div class="container">
+        <button id="btn" type="button" class="btn btn-default-xs pull-right"
+        onclick="toggleLang()">nl</button><br>
+    </div>
+</section>
+
+  <section id="tents">
     <!-- Header -->
     <div class="intro-header">
       <div class="container">
         <div class="row">
-          <button id="btn" type="button" class=
-          "btn btn-default-xs pull-right" onclick=
-          "toggleLang()">nl</button><br>
+          <h1><div class="en">Our tent contributors</div><div class="nl">In de tenten zijn te vinden</div></h1>
         </div>
-        <div class="row">
 {% for tc in site.data.tent_contributors %}
-  <p><img src="{{ tc.image }}"></br>
+<div class="row">
+  <div class="col-lg-2"><img class="img-responsive" src="/img/tents/{{ tc.image }}"></div><div class="col-lg-10">
   {% if tc.text_en %}
     {% if tc.text_en and tc.text_nl %}
-      <div id="en">
+      <div class="en">
     {% endif %}
-    <p>
     {{ tc.text_en|markdownify }}
-    </p>
     {% if tc.text_en and tc.text_nl %}
       </div>
     {% endif %}
   {% endif %}
   {% if tc.text_nl %}
     {% if tc.text_en and tc.text_nl %}
-      <div id="nl">
+      <div class="nl">
     {% endif %}
-    <p>
-    {{ tc.text_nl }}
-    </p>
+    {{ tc.text_nl|markdownify }}
     {% if tc.text_en and tc.text_nl %}
       </div>
     {% endif %}
   {% endif %}
-  </p>
+  </div>
+</div>
+<p></p>
 {% endfor %}
-        </div>
       </div><!-- /.container -->
     </div><!-- /.intro-header -->
   </section>
@@ -42,14 +44,13 @@
   <script>
   function toggleLang() {
         if ($("#btn").text() == "nl") {
-                $("#en").hide();
-                $("#nl").show();
+                $(".en").hide();
+                $(".nl").show();
                 $("#btn").text("en");
         } else {
-                $("#en").show();
-                $("#nl").hide();
+                $(".en").show();
+                $(".nl").hide();
                 $("#btn").text("nl");
         };
   }
   </script>
-
