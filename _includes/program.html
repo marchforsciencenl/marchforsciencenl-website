@@ -5,6 +5,46 @@
     </div>
 </section>
 
+<section id="keynote">
+  <div class="intro-header">
+    <div class="container">
+      <div class="row">
+        <img class="img-responsive" src="/img/tents/logo_header.jpg">
+      </div>
+      <div class="row">
+        <h1>MAIN STAGE</h1>
+      </div>
+      {% for speaker in site.data.speakers %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      <div class="row">
+        {% if thecycle == 'odd' %}
+          <div class="col-lg-2"><img class="img-responsive" src="/img/tents/{{ speaker.image }}"></div>
+          <div class="col-lg-10">
+            <p>
+              <h5>{{ speaker.title }}</h5>
+            </p>
+            <p>
+              {{ speaker.text_en }}
+            </p>
+          </div>
+        {% else %}
+          <div class="col-lg-10">
+            <p>
+              <h5>{{ speaker.title }}</h5>
+            </p>
+            <p>
+              {{ speaker.text_en }}
+            </p>
+          </div>
+          <div class="col-lg-2"><img class="img-responsive" src="/img/tents/{{ speaker.image }}"></div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
   <section id="tents">
     <!-- Header -->
     <div class="intro-header">

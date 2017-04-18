@@ -667,3 +667,16 @@ section#tents {
   padding-top: 0;
   padding-bottom: 100px;
 }
+
+section#keynote h1, section#tents h1 {
+  font-size: 65px;
+  text-align: center;
+  font-weight: bold;
+}
+
+section#keynote h5 {
+  font-size: 50px;
+  color: rgba(255,106,0,255);
+  text-transform: uppercase;
+  font-weight: bold;
+}
