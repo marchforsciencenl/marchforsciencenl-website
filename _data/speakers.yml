@@ -1,5 +1,5 @@
 - image: appys.jpg
-  title: climate change
+  title_en: climate change
   text_en: |
           Appy Sluijs (1980) is the Professor of Paleoceanography at the Earth
           Sciences Department and co-chair of the research group Marine
@@ -13,9 +13,24 @@
           geochemical (both inorganic and organic) techniques to quantify and
           understand the functioning of planet Earth under ‘greenhouse’
           conditions.”
+  title_nl: Klimaatverandering
+  text_nl: |
+          Appy Sluijs (1980) is hoogleraar Paleoceanografie bij de afdeling
+          Aardwetenschappen en co-voorzitter van de onderzoeksgroep Mariene
+          Palynologie en Paleoceanografie aan de Universiteit Utrecht. “Mijn
+          voornaamste onderzoeksinteresses zijn klimaatregeling en ecologische
+          verandering in het geologische verleden. Mijn onderzoek richt zich
+          vooral op het reconstrueren van temperatuur, mariene ecologie,
+          waterhuishouding, biogeochemische cycli en het zeeniveau gedurende
+          perioden die werden gekenmerkt door snel toenemende of algemeen hoge
+          concentraties van CO2 in de atmosfeer. Samen met studenten en
+          collega’s combineer ik micropaleontologische en geochemische (zowel
+          anorganische en organische) technieken om te kwantificeren en te
+          begrijpen hoe de werking van de aarde onder ‘broeikaseffect’
+          omstandigheden.”
 
 - image: pearld.jpg
-  title: Ageing society
+  title_en: Ageing society
   text_en: |
           Pearl Dykstra is Professor of Empirical Sociology at Erasmus
           University Rotterdam and Member of the High Level Group of scientists
@@ -23,9 +38,17 @@
           internationally regarded specialist on intergenerational solidarity,
           aging societies, family change, aging and the life course, and
           loneliness.
+  title_nl: Vergrijzing van de bevolking
+  text_nl: |
+          Pearl Dykstra is hoogleraar Empirische Sociologie aan de Erasmus
+          Universiteit Rotterdam en lid van de High Level Group van
+          wetenschappelijke adviseurs voor de Europese Commissie. Ze is een
+          internationaal gerenommeerd specialist op intergenerationele
+          solidariteit, vergrijzende samenlevingen, familie verandering,
+          veroudering, de levensloop en eenzaamheid.
 
 - image: peterh.jpg
-  title: Neuroscience
+  title_en: Neuroscience
   text_en: |
           Peter Hagoort is director of the Max Planck Institute for
           Psycholinguistics and the founding director of the Donders Institute,
@@ -40,9 +63,25 @@
           Royal Netherlands Academy of Arts Sciences (KNAW) awarded him with the
           Hendrik Mullerprijs in 2003. In 2004 he was awarded by the Dutch Queen
           with the "Knighthood of the Dutch Lion".
+  title_nl: Neurowetenschappen
+  text_nl: |
+          Peter Hagoort is directeur van het Max Planck Instituut voor
+          Psycholinguïstiek en oprichter en directeur van het Donders Institute,
+          Center for Cognitive Neuroimaging, een cognitief neurowetenschappelijk
+          onderzoek centrum van de Radboud Universiteit Nijmegen. Daarnaast is
+          hij professor in de cognitieve neurowetenschappen aan de Radboud
+          Universiteit Nijmegen. Zijn eigen onderzoeks interesse hebben
+          betrekking op het menselijk taalvermogen en hoe dit werkt in de
+          hersenen. In zijn onderzoek gebruikt hij neuroimaging technieken zoals
+          ERP, MEG, PET en fMRI om het taalsysteem en aandoeningen hieraan zoals
+          afasie, dyslexie en autisme te onderzoeken. Voor zijn
+          wetenschappelijke bijdragen heeft de Koninklijke Nederland Akademie
+          van Wetenschappen (KNAW) hem in 2003 bekroond met de Hendrik
+          Mullerprijs. In 2004 werd hij onderscheiden door de Nederlandse
+          Koningin met de "De Orde van de Nederlandse Leeuw".
 
 - image: adeolae.jpg
-  title: Urban experience
+  title_en: Urban experience
   text_en: |
           Adeola Enigbokan is on Faculty of Social and Behavioural Sciences
           Programme group&#58; Cultural Sociology at University of Amsterdam. Her
@@ -51,18 +90,35 @@
           on urban experience with architects, designers, educators and other
           social researchers in neighborhoods of New York, Tel Aviv, Moscow,
           Saint Petersburg, Beijing, Mexico City and Amsterdam.
+  title_nl: Stedelijke Sociologie
+  text_nl: |
+          Adeola Enigbokan werkt bij de Faculteit der Maatschappij- en
+          Gedragswetenschappen (Programmagroep&#58; Culturele Sociologie) aan de
+          Universiteit van Amsterdam. Haar onderzoek is gebaseerd op theorie en
+          methoden uit de milieu-psychologie, antropologie en geschiedenis. Ze
+          doet onderzoek naar stads-ervaring met hulp van architecten,
+          ontwerpers, opvoeders en andere sociale wetenschappers in de wijken
+          van New York, Tel Aviv, Moskou, Sint-Petersburg, Beijing, Mexico City
+          en Amsterdam.
 
 - image: jacod.jpg
-  title: Immigration
-  text_en: |
+  title_nl: Immigratie
+  text_nl: |
           Jaco Dagevos studeerde Sociologie aan de Erasmus Universiteit
           Rotterdam, waar hij in 1998 promoveerde op een studie naar de loopbaan
           van migrantengroepen. Miv 1 januari 2015 is hij bijzonder hoogleraar
           Integratie en Migratie bij de afdeling Sociologie van de Faculteit der
           Sociale Wetenschappen (FSW) aan de Erasmus Universiteit Rotterdam.
+  title_en: Immigration
+  text_en: |
+          Jaco Dagevos studied Sociology at the Erasmus University Rotterdam,
+          where he graduated in 1998. In his Ph.D. thesis he focused on the
+          careers of migrant groups. From January 1, 2015 he is the Professor of
+          Integration and Migration at the Department of Sociology of the
+          Faculty of Social Sciences (FSS) of the Erasmus University Rotterdam.
 
 - image: fionag.jpg
-  title: Health
+  title_en: Health
   text_en: |
           Fiona Godfrey is the Policy Director of the European Association for
           the Study of the Liver (EASL) in Luxembourg and Brussels. Over the
@@ -70,12 +126,28 @@
           diseases as a consultant to the European Commission, the WHO and three
           European medical societies. In 2011 she was the recipient of a WHO
           World No Tobacco Day individual achievement award.
+  title_nl: Gezondheid
+  text_nl: |
+          Fiona Godfrey is het beleid directeur van de Europese Vereniging voor
+          de Studie van de Lever (European Association for the Study of the
+          Liver; EASL) in Luxemburg en Brussel. In de afgelopen 20 jaar heeft ze
+          gewerkt op het gebied van chronische en infectieziekten als adviseur
+          aan de Europese Commissie, de WHO en drie Europese medische
+          verenigingen. In 2011 was ze de ontvanger van een WHO World No Tobacco
+          Day individuele achievement award.
 
 - image: vinods.jpg
-  title: Scientific research
+  title_en: Scientific research
   text_en: |
           Vinod Subramaniam is the Rector Magnificus of the Vrije Universiteit
           Amsterdam. Prior to this position, he was director of the FOM
           Institute AMOLF in Amsterdam, one of the research laboratories of the
           Foundation for Fundamental Research on Matter (FOM), part of the
           Netherlands Organisation for Scientific Research (NWO).
+  title_nl: Wetenschappelijke onderzoek
+  text_nl: |
+          Vinod Subramaniam is de rector magnificus van de Vrije Universiteit
+          Amsterdam. Voorafgaand aan deze functie was hij directeur van het
+          FOM-instituut AMOLF in Amsterdam, een van de onderzoekslaboratoria van
+          de Stichting voor Fundamenteel Onderzoek der Materie (FOM), onderdeel
+          van de Nederland Organisatie voor Wetenschappelijk Onderzoek (NWO)

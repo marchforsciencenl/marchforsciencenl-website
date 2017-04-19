@@ -12,7 +12,7 @@
         <img class="img-responsive" src="/img/tents/logo_header.jpg">
       </div>
       <div class="row">
-        <h1>MAIN STAGE</h1>
+        <h1><div class="en">MAIN STAGE</div><div class="nl">OP HET PODIUM</div></h1>
       </div>
       {% for speaker in site.data.speakers %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -21,19 +21,21 @@
           <div class="col-lg-2"><img class="img-responsive" src="/img/tents/{{ speaker.image }}"></div>
           <div class="col-lg-10">
             <p>
-              <h5>{{ speaker.title }}</h5>
+              <h5><div class="en">{{ speaker.title_en }}</div><div class="nl">{{ speaker.title_nl }}</div></h5>
             </p>
             <p>
-              {{ speaker.text_en }}
+              <div class="en">{{ speaker.text_en }}</div>
+              <div class="n">{{ speaker.text_nl }}</div>
             </p>
           </div>
         {% else %}
           <div class="col-lg-10">
             <p>
-              <h5>{{ speaker.title }}</h5>
+              <h5><div class="en">{{ speaker.title_en }}</div><div class="nl">{{ speaker.title_nl }}</div></h5>
             </p>
             <p>
-              {{ speaker.text_en }}
+              <div class="en">{{ speaker.text_en }}</div>
+              <div class="n">{{ speaker.text_nl }}</div>
             </p>
           </div>
           <div class="col-lg-2"><img class="img-responsive" src="/img/tents/{{ speaker.image }}"></div>
