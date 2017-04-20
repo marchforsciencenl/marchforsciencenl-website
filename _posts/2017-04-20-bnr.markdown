@@ -1,0 +1,8 @@
+---
+layout: post
+img: 
+category: media
+title: BNR Nieuwsradio - Hemmen
+description: |
+---
+  Vandaag op de nationale radio. Een audio fragment via [deze link](https://www.bnr.nl/player/archief/20170420133200900)
