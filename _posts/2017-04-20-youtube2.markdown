@@ -1,0 +1,16 @@
+---
+layout: post
+img: 
+category: media
+title: Youtube promoties 
+description: |
+---
+  Twee geweldige bijdragen om de mars van komende zaterdag te promoten.
+
+  English;
+
+[![English](http://img.youtube.com/vi/cw0USG7Sd60/0.jpg)](http://www.youtube.com/watch?v=cw0USG7Sd60 "English")
+
+  Dutch;
+
+[![Nederlands](http://img.youtube.com/vi/ruxnWPmap78/0.jpg)](http://www.youtube.com/watch?v=ruxnWPmap78 "Nederlands")
