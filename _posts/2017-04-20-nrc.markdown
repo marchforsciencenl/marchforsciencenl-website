@@ -2,7 +2,7 @@
 layout: post
 img: nrc.png
 category: news
-title: ‘March for Science’ - meer feesten dan marcheren
+title: ‘March for Science’ - opnieuw in de NRC
 description: |
 ---
   In de NRC is een nieuw artikel over de mars verschenen. Deze is [hier](https://www.nrc.nl/nieuws/2017/04/20/march-for-science-meer-feesten-dan-marcheren-8336260-a1555263) te lezen.
