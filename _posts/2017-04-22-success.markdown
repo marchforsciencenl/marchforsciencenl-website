@@ -1,6 +1,6 @@
 ---
 layout: post
-img: 
+img: overview.jpg
 category: media
 title: March For Science NL was a big succes! 
 description: |
