@@ -1,0 +1,9 @@
+---
+layout: post
+img: 
+category: media
+title: March For Science NL was a big succes! 
+description: |
+---
+  On April 22 2017 the March For Science at Museumplein Amsterdam was one of over 600 worldwide demonstrations for science. With eight key-note speakers, two teach-in tents and a sciencestroll, the Dutch March was an informative protest. With a wide coverage by national and international press, a large collaboration with education and science institutes and an estimated turnout of 3000 marchers throughout the 4 hour march, we can say this March For Science was an enormous success! We would like to thank everyone who marched with us, all the volunteers, and speakers for their commitment, and our partners and sponsors for believing in us.
+  Keep an eye on our website and social media (@ScienceMarchNL on Facebook & Twitter). And do not forget to [register](#support) at our website, to be kept up-to-date on further initiatives and steps to improve the position of science in society and policy. Science - Not Silence!
